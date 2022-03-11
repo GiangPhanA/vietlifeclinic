@@ -1,5 +1,5 @@
 .header {
-    height: 50px;
+    height: 70px;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -28,35 +28,59 @@
 
 .header-logo-link__img {
     width: 160px;
-    height: 50px;
+    height: 70px;
     color: var(--white-color);
     text-align: center;
     padding: 8px;
     padding-right: 30px;
 }
 
-.header-location {
+.header-phone {
+    margin-left: 50px;
     display:flex;
     align-items: center;
     justify-content:center;
-    
-
 }
-.header-location-hanoi {
+.header-phone-hanoi {
+    display: flex;
     flex: 1;
     height: 100%;
     position: relative;
-
+    margin-right: 30px;
+    
+}
+.header-phone-hanoi-item {
+    font-size: 3rem;
+    color: #fcb81f;
 
 }
-.header-location-hanoi-item {
 
+.header-phone-hanoi__icon {
+
+}
+.header-phone-hanoi__despition {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    /* margin-right: 50px; */
+
+}
+.header-phone-hanoi__text {
+    font-size: 1.2rem;
+    color: #ff9800;
+    font-weight: 500;
+
+}
+.header-phone-hanoi__numberphone {
+    color: #22b24c;
+    font-size: 2rem;
+    font-weight: 500;
 
 }
 
 .navbar {
-    top: 50px;
-    min-height: 10px;
+    top: 73px;
+    min-height: 20px;
     display: flex;
     align-items: center;
     position: relative;
@@ -72,7 +96,7 @@
 }
 
 .navbar-menu-main__item {
-    margin-left: 15px;
+    margin-left: 30px;
     position: relative;
     display: inline-block;
 
@@ -81,15 +105,15 @@
 .navbar-menu-main__item-link {
     text-decoration: none;
     color: white;
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    line-height: 0.7rem;
+    line-height: 1.2rem;
     text-transform: uppercase;
 }
 
 .navbar-menu-main__item-link-icon {
     color: white;
-    font-size: 0.5rem;
-    font-weight: 800;
-    line-height: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1rem;
 }
